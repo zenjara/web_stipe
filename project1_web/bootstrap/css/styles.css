@@ -1,0 +1,270 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Jumbotron
+   -------------------------------------- */
+.jumbotron{
+
+    position: relative;
+    background: url("../../images/plaza_1.jpg") center center no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+    min-height: 900px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+
+}
+#btn1{
+margin-top: 7px;
+
+}
+#btn3{
+    padding: 10px ;
+    font-size: 20px;
+    color: #ffffff;
+    background: #333;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+h1{
+    font-family: 'Baron';
+}
+
+
+.glyphicon-star{
+    font-size: small;
+    padding-bottom: 20px;
+}
+footer{
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+form .btn{
+    margin-top: 10px;
+}
+.page-header {
+    padding-top: 10px;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+    margin-top:60px;
+}
+.carousel-caption{
+    font-size: 24px;
+}
+.carousel-caption h4{
+    font-size: 32px;
+}
+#myCarousel .item{
+    height: 400px;
+}
+#slide1{
+    background: url("../../images/omis-2.jpg") top center no-repeat;
+}
+#slide2{
+    background: url("../../images/Beach-Duce.jpg") top center no-repeat;
+}
+#slide3{
+    background: url("../../images/tice.jpg") top center no-repeat;
+}
+
+#myCarousel2{
+    margin-top:20px;
+}
+.carousel-caption{
+    font-size: 24px;
+}
+.carousel-caption h4{
+    font-size: 32px;
+}
+#myCarousel2 .item{
+    height: 400px;
+}
+#slide01{
+    background: url("../../images/prilaz.jpg") top center no-repeat;
+}
+#slide11{
+    background: url("../../images/ap1.jpg") top center no-repeat;
+}
+#slide21{
+    background: url("../../images/green.jpg") top center no-repeat;
+}
+#slide31{
+    background: url("../../images/green3.jpg") top center no-repeat;
+}
+#slide41{
+    background: url("../../images/green2.jpg") top center no-repeat;
+}
+#slide51{
+    background: url("../../images/green4.JPG") top center no-repeat;
+}
+#slide61{
+    background: url("../../images/green6.jpg") top center no-repeat;
+}
+#slide71{
+    background: url("../../images/green5.jpg") top center no-repeat;
+}
+#myCarousel3{
+    margin-top:20px;
+}
+.carousel-caption{
+    font-size: 24px;
+}
+.carousel-caption h4{
+    font-size: 32px;
+}
+#myCarousel3 .item{
+    height: 400px;
+}
+#slide03{
+    background: url("../../images/prilaz.jpg") top center no-repeat;
+}
+#slide13{
+    background: url("../../images/ap2.jpg") top center no-repeat;
+}
+#slide23{
+    background: url("../../images/violet.jpg") top center no-repeat;
+}
+#slide33{
+    background: url("../../images/violet2.jpg") top center no-repeat;
+}
+#slide43{
+    background: url("../../images/violet3.jpg") top center no-repeat;
+}
+#slide53{
+    background: url("../../images/violet4.jpg") top center no-repeat;
+}
+#slide63{
+    background: url("../../images/vioolet4.JPG") top center no-repeat;
+}
+#slide73{
+    background: url("../../images/violet5.jpg") top center no-repeat;
+}
+#slide83{
+    background: url("../../images/violet6.jpg") top center no-repeat;
+}
+#myCarousel4{
+    margin-top:20px;
+}
+.carousel-caption{
+    font-size: 24px;
+}
+.carousel-caption h4{
+    font-size: 32px;
+}
+#myCarousel4 .item{
+    height: 600px;
+}
+#slide14{
+    background: url("../../images/ap_pogled.jpg") top center no-repeat;
+}
+#slide24{
+    background: url("../../images/blue.jpg") top center no-repeat;
+}
+#slide34{
+    background: url("../../images/blue2.jpg") top center no-repeat;
+}
+#slide44{
+    background: url("../../images/blue3.jpg") top center no-repeat;
+}
+#slide54{
+    background: url("../../images/blue4.jpg") top center no-repeat;
+}
+#slide64{
+    background: url("../../images/blue5.jpg") top center no-repeat;
+}
+#slide74{
+     background: url("../../images/blue6.JPG") top center no-repeat;
+ }
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#img1{
+    align-content: center;
+}
+#img2{
+    max-width: 80%;
+}
+.thumbnails{
+    margin:20px 0;
+}
+.thumbnail{
+    position: relative;
+}
+.thumbnail h3{
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+.thumbnail .price{
+    font-size: 22px;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    padding: 10px;
+}
+#tag2{
+    background-color: blueviolet;
+}
+#btn2{
+    background-color: blueviolet;
+}
+.thumbnail .price sup{
+    font-weight: normal;
+    font-size: 12px;
+}
+.thumbnail span.glyphicon {
+    margin-right: 5px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+}
+
