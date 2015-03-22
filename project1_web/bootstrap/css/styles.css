@@ -24,28 +24,43 @@ Notes:	 Hand coded for Udemy.com
     margin-top: 0px;
 
 }
+#home h1{
+    /*font-family: 'Lobster', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Pinyon Script', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Tangerine', cursive;*/
+    font-family: 'Quando', serif;
+    -ms-transform: rotate(6deg); /* IE 9 */
+    -webkit-transform: rotate(6deg); /* Chrome, Safari, Opera */
+    transform: rotate(6deg);
+    margin-top: 50px;
+/* padding-left: 200px;*/
+   position: absolute;
+}
 #btn1{
 margin-top: 7px;
 
 }
 #btn3{
-    padding: 10px ;
-    font-size: 20px;
-    color: #ffffff;
-    background: #333;
+ padding: 10px ;
+ font-size: 20px;
+ color: #ffffff;
+ background: #333;
 }
 .row h4 {
-    font-size:18px;
+ font-size:18px;
 }
 
 .row p{
-    font-size:14px;
+ font-size:14px;
 }
 
 
 /* --------------------------------------
-   Typography
-   -------------------------------------- */
+Typography
+-------------------------------------- */
 body{
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
@@ -325,12 +340,14 @@ form .btn{
         background: url("../../images/plaza_1_medium.jpg") center center no-repeat;
         background-attachment: fixed ;
         background-size: cover;
-        min-height: 700px;
+       min-height: 700px;
         margin-bottom: 8px;
         margin-top: 0px;
 
 
     }
+
+
 }
 
 
@@ -347,5 +364,6 @@ form .btn{
 
 
     }
+
 }
 
