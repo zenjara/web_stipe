@@ -34,6 +34,14 @@ margin-top: 7px;
     color: #ffffff;
     background: #333;
 }
+.row h4 {
+    font-size:18px;
+}
+
+.row p{
+    font-size:14px;
+}
+
 
 /* --------------------------------------
    Typography
@@ -74,26 +82,44 @@ form .btn{
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-#myCarousel{
-    margin-top:60px;
+
+
+#myCarousel {
+    margin-top: 50px;
 }
 .carousel-caption{
     font-size: 24px;
+
+    top:20px;
 }
 .carousel-caption h4{
     font-size: 32px;
+
+
 }
+
+
 #myCarousel .item{
     height: 400px;
 }
 #slide1{
-    background: url("../../images/omis-2.jpg") top center no-repeat;
-}
-#slide2{
-    background: url("../../images/Beach-Duce.jpg") top center no-repeat;
+    background: url("../../images/omis2.jpg") top center no-repeat;
 }
 #slide3{
-    background: url("../../images/tice.jpg") top center no-repeat;
+    background: url("../../images/split2.jpg") top center no-repeat;
+}
+#slide2{
+    background: url("../../images/makarska.jpg") top center no-repeat;
+}
+
+#slide4{
+    background: url("../../images/cetina.jpg") top center no-repeat;
+}
+#slide5{
+    background: url("../../images/paraglajding.jpg") top center no-repeat;
+}
+#slide6{
+    background: url("../../images/windsurfing.jpg") top center no-repeat;
 }
 
 #myCarousel2{
@@ -104,34 +130,37 @@ form .btn{
 }
 .carousel-caption h4{
     font-size: 32px;
+
 }
+
+
 #myCarousel2 .item{
     height: 400px;
 }
 #slide01{
-    background: url("../../images/prilaz.jpg") top center no-repeat;
-}
-#slide11{
-    background: url("../../images/ap1.jpg") top center no-repeat;
-}
-#slide21{
     background: url("../../images/green.jpg") top center no-repeat;
 }
-#slide31{
+#slide11{
     background: url("../../images/green3.jpg") top center no-repeat;
 }
-#slide41{
-    background: url("../../images/green2.jpg") top center no-repeat;
+#slide21{
+    background: url("../../images/green2.JPG") top center no-repeat;
 }
-#slide51{
-    background: url("../../images/green4.JPG") top center no-repeat;
-}
-#slide61{
+#slide31{
     background: url("../../images/green6.jpg") top center no-repeat;
 }
-#slide71{
+#slide41{
     background: url("../../images/green5.jpg") top center no-repeat;
 }
+#slide51{
+    background: url("../../images/prilaz1.jpg") top center no-repeat;
+}
+/*#slide61{
+    background: url("../../images/green.jpg") top center no-repeat;
+}
+#slide71{
+    background: url("../../images/green.jpg") top center no-repeat;
+} */
 #myCarousel3{
     margin-top:20px;
 }
@@ -145,7 +174,7 @@ form .btn{
     height: 400px;
 }
 #slide03{
-    background: url("../../images/prilaz.jpg") top center no-repeat;
+    background: url("../../images/prilaz1.jpg") top center no-repeat;
 }
 #slide13{
     background: url("../../images/ap2.jpg") top center no-repeat;
@@ -157,20 +186,21 @@ form .btn{
     background: url("../../images/violet2.jpg") top center no-repeat;
 }
 #slide43{
-    background: url("../../images/violet3.jpg") top center no-repeat;
+    background: url("../../images/violet5.jpg") top center no-repeat;
 }
 #slide53{
-    background: url("../../images/violet4.jpg") top center no-repeat;
+    background: url("../../images/violet3.jpg") top center no-repeat;
 }
 #slide63{
-    background: url("../../images/vioolet4.JPG") top center no-repeat;
+    background: url("../../images/violet4.jpg") top center no-repeat;
 }
+/*
 #slide73{
     background: url("../../images/violet5.jpg") top center no-repeat;
 }
 #slide83{
     background: url("../../images/violet6.jpg") top center no-repeat;
-}
+} */
 #myCarousel4{
     margin-top:20px;
 }
@@ -187,7 +217,7 @@ form .btn{
     background: url("../../images/ap_pogled.jpg") top center no-repeat;
 }
 #slide24{
-    background: url("../../images/blue.jpg") top center no-repeat;
+    background: url("../../images/bluee.jpg") top center no-repeat;
 }
 #slide34{
     background: url("../../images/blue2.jpg") top center no-repeat;
@@ -196,14 +226,18 @@ form .btn{
     background: url("../../images/blue3.jpg") top center no-repeat;
 }
 #slide54{
-    background: url("../../images/blue4.jpg") top center no-repeat;
-}
-#slide64{
     background: url("../../images/blue5.jpg") top center no-repeat;
 }
+#slide64{
+    background: url("../../images/blue6.JPG") top center no-repeat;
+}
 #slide74{
-     background: url("../../images/blue6.JPG") top center no-repeat;
+     background: url("../../images/blue4.jpg") top center no-repeat;
  }
+#slide84{
+    background: url("../../images/bluevaljda.jpg") top center no-repeat;
+}
+
 
 
 
@@ -211,6 +245,22 @@ form .btn{
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+#googleMaps
+{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+#googleMaps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
 #img1{
     align-content: center;
 }
@@ -254,17 +304,48 @@ form .btn{
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+.jumbotron {
+    position: relative;
+    background: url("../../images/plaza_1_small.jpg") center center no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+    min-height: 700px;
+    margin-bottom: 8px;
+    margin-top: 0px;
 
+
+}
 }
 
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+    .jumbotron {
+        position: relative;
+        background: url("../../images/plaza_1_medium.jpg") center center no-repeat;
+        background-attachment: fixed ;
+        background-size: cover;
+        min-height: 700px;
+        margin-bottom: 8px;
+        margin-top: 0px;
 
+
+    }
 }
 
 
 /* Large desktop */
 @media (min-width: 1200px) {
+    .jumbotron {
+        position: relative;
+        background: url("../../images/plaza_1_large.jpg") center center no-repeat;
+        background-attachment: fixed ;
+        background-size: cover;
+        min-height: 700px;
+        margin-bottom: 8px;
+        margin-top: 0px;
+
+
+    }
 }
 
