@@ -19,7 +19,7 @@ Notes:	 Hand coded for Udemy.com
     background: url("../../images/plaza_1.jpg") center center no-repeat;
     background-attachment: fixed ;
     background-size: cover;
-    min-height: 900px;
+    /*min-height: 900px;*/
     margin-bottom: 8px;
     margin-top: 0px;
 
@@ -31,13 +31,17 @@ Notes:	 Hand coded for Udemy.com
     font-family: 'Pinyon Script', cursive;
     font-family: 'Amatic SC', cursive;
     font-family: 'Tangerine', cursive;*/
-    font-family: 'Quando', serif;
+    /*font-family: 'Quando', serif;*/
+    font-family: 'Dancing Script', cursive;
     -ms-transform: rotate(6deg); /* IE 9 */
     -webkit-transform: rotate(6deg); /* Chrome, Safari, Opera */
     transform: rotate(6deg);
     margin-top: 50px;
 /* padding-left: 200px;*/
    position: absolute;
+   right: 20%;
+    top: 10%;
+
 }
 #btn1{
 margin-top: 7px;
@@ -66,9 +70,7 @@ body{
     text-rendering: optimizelegibility;
 }
 
-h1{
-    font-family: 'Baron';
-}
+
 
 
 .glyphicon-star{
@@ -324,7 +326,7 @@ form .btn{
     background: url("../../images/plaza_1_small.jpg") center center no-repeat;
     background-attachment: fixed ;
     background-size: cover;
-    min-height: 700px;
+    min-height: 300px;
     margin-bottom: 8px;
     margin-top: 0px;
 
@@ -340,7 +342,7 @@ form .btn{
         background: url("../../images/plaza_1_medium.jpg") center center no-repeat;
         background-attachment: fixed ;
         background-size: cover;
-       min-height: 700px;
+       min-height: 400px;
         margin-bottom: 8px;
         margin-top: 0px;
 
@@ -352,7 +354,7 @@ form .btn{
 
 
 /* Large desktop */
-@media (min-width: 1200px) {
+@media (max-width: 1500px) {
     .jumbotron {
         position: relative;
         background: url("../../images/plaza_1_large.jpg") center center no-repeat;
@@ -364,6 +366,32 @@ form .btn{
 
 
     }
+    .row h4 {
+        font-size:18px;
+    }
 
+    .row p{
+        font-size:14px;
+    }
+}
+@media (min-width: 1510px) {
+    .jumbotron {
+        position: relative;
+        background: url("../../images/plaza_1_large.jpg") center center no-repeat;
+        background-attachment: fixed ;
+        background-size: cover;
+        min-height: 900px;
+        margin-bottom: 8px;
+        margin-top: 0px;
+
+
+    }
+    .row h4 {
+        font-size:20px;
+    }
+
+    .row p{
+        font-size:16px;
+    }
 }
 
